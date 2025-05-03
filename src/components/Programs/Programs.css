@@ -1,0 +1,138 @@
+.programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.programs {
+    background-color: #f4f4f9;
+  }
+  
+  .program-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section,
+  .right-section {
+    padding: 1.5rem;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-lg {
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  .text-blue-700 {
+    color: #2980b9;
+  }
+  
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .list-disc {
+    margin-left: 1.5rem;
+  }
+  
+  .space-y-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .space-y-6 {
+    margin-bottom: 2rem;
+  }
+  
+  .programs .left-section,
+  .programs .right-section {
+    margin-bottom: 2rem;
+  }
+  
+  .text-sm {
+    color: #95a5a6;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .program-container {
+      flex-direction: column;
+    }
+  
+    .left-section,
+    .right-section {
+      width: 100%;
+    }
+  }
+  
+.program img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+
+
+}
+.program{
+    flex-basis: 31%;
+    position: relative;
+
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+
+
+}
+.caption img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
+
+/*-------media query ----------*/
+
+@media (max-width: 650px){
+    .programs{
+        flex-direction: column;
+
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+        
+    }
+}
