@@ -9,7 +9,7 @@ const Programs = () => {
         {/* Left Section - Key Information about Protection */}
         <div className="left-section w-full lg:w-1/2 mb-12 lg:mb-0">
           <h2 className="text-4xl font-bold mb-6">
-            Protection Is Our Passion
+            Protection Is Our Passion.
           </h2>
           <p className="mb-6 text-lg font-medium leading-relaxed">
             At Leeds Pulse, your trust is our most valuable asset. We ensure that your LinkedIn profile is not only used responsibly but also with the highest level of security and full transparency. 
