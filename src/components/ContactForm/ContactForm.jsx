@@ -204,6 +204,17 @@ const ContactForm = () => {
           I recognize that this partnership is based on trust, and in return, I will benefit from the opportunity to generate passive income with minimal effort, all while maintaining control over my account.
           <br />
           By agreeing to these terms, I confirm that I fully understand and accept the responsibilities and benefits associated with renting out my LinkedIn account.
+          I hereby declare that:
+
+If I change the password, authenticator, or login credentials of the account—or take any such action—without informing the account holder (client), I will be fully responsible and agree to a 3-day suspension without pay. I will also be available to compensate for the 3 days’ salary.
+
+In case I regain access to the account, I will inform the account holder at least 7 days in advance.
+
+If I break any of the rules mentioned above, I accept full responsibility for the consequences.
+
+I confirm that I have not created any new connections (e.g., leads, campaigns, client links, or logins) over the last 7 days.
+
+I further confirm that this account has been active for more than 1 year.
         </label>
 
         <button type="submit">Submit</button>

@@ -59,3 +59,20 @@ a{
         padding: 14px 22px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .program-container {
+        display: flex
+    ;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0rem;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px #0000001a;
+    }
+}

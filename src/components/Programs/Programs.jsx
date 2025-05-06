@@ -4,7 +4,7 @@ import './Programs.css';
 const Programs = () => {
   return (
     <div className='programs'>
-      <div className="program-container max-w-screen-xl mx-auto px-6 py-12 text-gray-800">
+      <div className="program-container max-w-screen-xl mx-auto px-3 py-6 text-gray-800">
         
         {/* Left Section - Key Information about Protection */}
         <div className="left-section w-full lg:w-1/2 mb-12 lg:mb-0">
