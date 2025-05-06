@@ -11,19 +11,17 @@
   }
   
   .program-container {
-    display: flex;
+    display: flex
+;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 3rem;
+    padding: 2rem;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .left-section,
-  .right-section {
-    padding: 1.5rem;
-  }
+ 
   
   h2 {
     color: #2c3e50;

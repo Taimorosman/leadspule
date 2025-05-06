@@ -112,4 +112,37 @@
     .slider p{
         font-size: 12px;
     }
+    .btn {
+        height: 47px;
+        width: 158px;
+        background: #fff;
+        color: #212121;
+        padding: 14px 25px;
+        font-size: 14px;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex
+;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-form h2 {
+        font-size: 17px;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+   
+
+    .testimonials {
+        display: none;
+        margin: 50px auto;
+        padding: 0 80px;
+        position: relative;
+    }
 }

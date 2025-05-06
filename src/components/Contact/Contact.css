@@ -76,8 +76,12 @@
     .contact{
         display: block;
     }
-    .contact-col{
-        padding: 20px;
-        
+    
+    .programs .left-section, .programs .right-section {
+        margin-bottom: 2rem;
+        padding: 14px;
+    }
+    .vision-mission {
+        padding: 10px;
     }
 }
