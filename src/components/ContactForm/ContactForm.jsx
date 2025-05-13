@@ -184,8 +184,14 @@ const ContactForm = () => {
           <option value="No">No</option>
         </select>
 
-        <label>Alternative Contact No</label>
-        <input type="text" name="alternative_contact" value={formData.alternative_contact} onChange={handleChange} required />
+        <label>Select Client (Alternative Contact)</label>
+<select name="alternative_contact" value={formData.alternative_contact} onChange={handleChange} required>
+  <option value="">Select a client</option>
+  <option value="client_1">LeadsPuls_lcy7727</option>
+  <option value="client_2">LeadsPulse_Mry424413</option>
+  <option value="client_3">LeadsPulse_Tok6100</option>
+  <option value="client_4">LeadsPulse_Altr0001</option>
+</select>
 
         {/* Strict Checkbox Validation */}
         <label style={{ fontSize: '13px' }}>
